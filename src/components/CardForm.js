@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Form, Button } from "react-bootstrap";
 function CardForm() {
   return (
-    <Card bg={"primary"} className="text-center">
+    <Card bg={"primary"} className="text-center card-form ">
       <Card.Body>
         <Card.Title>Sign up Today</Card.Title>
         <Card.Text>Please fill out this form to register</Card.Text>
@@ -26,7 +26,7 @@ function CardForm() {
             <Form.Control type="password" placeholder="Confirm Password" />
           </Form.Group>
 
-          <Button variant="light" type="submit">
+          <Button className="btn-block" variant="outline-light" type="submit">
             Submit
           </Button>
         </Form>

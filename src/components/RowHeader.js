@@ -4,7 +4,7 @@ function RowHeader() {
   return (
     <div className="d-flex">
       <div className="p-4 align-self-start ">
-        <FaCheck size={30} />
+        <FaCheck size={30} className="check" />
       </div>
       <div className="p-4 align-self-end">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt

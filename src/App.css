@@ -7,3 +7,32 @@ body {
   border-bottom: #008ed6 3px solid;
   opacity: 0.8;
 }
+
+#home-section {
+  background: url("./Assets/looplab/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.dark-overlay {
+  min-height: 700px;
+  width: 100%;
+
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 90px;
+}
+
+#home-section .card-form {
+  opacity: 0.8 !important;
+}
+
+.check {
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #008ed6;
+}
