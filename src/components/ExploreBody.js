@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Col, Row, Image } from "react-bootstrap";
-import image from "../Assets/looplab/explore-section1.jpg";
+
 import RowHeader from "./RowHeader";
-function ExploreBody({ orderImage, orderText }) {
+function ExploreBody({ orderImage, orderText, image, bgColor }) {
+  const data = `text-muted py-5 ${bgColor}`;
   return (
-    <section id="explore-body" className="bg-light text-muted py-5">
+    <section id="explore-body" className={data}>
       <Container>
         <Container>
           <Row>

@@ -4,6 +4,7 @@ import NavigationBar from "./components/Navbar";
 import Header from "./components/Header";
 import Explore from "./Containers/Explore";
 import Share from "./Containers/Share";
+import Create from "./Containers/Create";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavigationBar />
       <Header />
       <Explore />
+      <Create />
       <Share />
     </div>
   );
