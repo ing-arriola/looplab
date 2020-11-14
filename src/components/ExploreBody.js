@@ -2,16 +2,16 @@ import React from "react";
 import { Container, Col, Row, Image } from "react-bootstrap";
 import image from "../Assets/looplab/explore-section1.jpg";
 import RowHeader from "./RowHeader";
-function ExploreBody() {
+function ExploreBody({ orderImage, orderText }) {
   return (
     <section id="explore-body" className="bg-light text-muted py-5">
       <Container>
         <Container>
           <Row>
-            <Col lg={6}>
+            <Col className={orderImage} lg={6}>
               <Image src={image} roundedCircle fluid className="mb-3" />
             </Col>
-            <Col lg={6}>
+            <Col className={orderText} lg={6}>
               <h3> Explore & Connect </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
