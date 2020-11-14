@@ -2,8 +2,16 @@ import React from "react";
 import { Container, Col, Row, Image } from "react-bootstrap";
 
 import RowHeader from "./RowHeader";
-function ExploreBody({ orderImage, orderText, image, bgColor }) {
-  const data = `text-muted py-5 ${bgColor}`;
+function ExploreBody({
+  orderImage,
+  orderText,
+  image,
+  bgColor,
+  textColor,
+  checkColor,
+  CheckBg,
+}) {
+  const data = `${textColor} py-5 ${bgColor}`;
   return (
     <section id="explore-body" className={data}>
       <Container>
@@ -19,8 +27,8 @@ function ExploreBody({ orderImage, orderText, image, bgColor }) {
                 modi exercitationem laboriosam cum incidunt aperiam enim unde
                 commodi praesentium? Dolores!
               </p>
-              <RowHeader color="#fff" background="#333" />
-              <RowHeader color="#fff" background="#333" />
+              <RowHeader color={checkColor} background={CheckBg} />
+              <RowHeader color={checkColor} background={CheckBg} />
             </Col>
           </Row>
         </Container>

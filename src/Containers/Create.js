@@ -15,6 +15,8 @@ const Create = () => {
         orderText="order-1"
         image={image}
         bgColor="bg-dark"
+        CheckBg="bg-light"
+        checkColor="text-primary"
       />
     </>
   );

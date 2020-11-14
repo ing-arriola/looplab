@@ -10,7 +10,13 @@ const Share = () => {
         title="Share"
         outline="outline-light"
       />
-      <ExploreBody image={image} bgColor="bg-light" />
+      <ExploreBody
+        image={image}
+        bgColor="bg-light"
+        textColor="text-muted"
+        CheckBg="bg-dark"
+        checkColor="text-light"
+      />
     </>
   );
 };
