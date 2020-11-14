@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Container, Col, Row, Button } from "react-bootstrap";
-const ExploreSection = () => {
+const ExploreHeader = () => {
   return (
     <section id="explore-head-section">
       <Container>
@@ -21,4 +21,4 @@ const ExploreSection = () => {
   );
 };
 
-export default ExploreSection;
+export default ExploreHeader;

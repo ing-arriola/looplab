@@ -13,9 +13,9 @@ const Header = () => {
                 Build <strong> social profiles</strong> and gain revenue
                 <strong> profits</strong>
               </h1>
-              <RowHeader />
-              <RowHeader />
-              <RowHeader />
+              <RowHeader color="#008ed6" background="#fff" />
+              <RowHeader color="#008ed6" background="#fff" />
+              <RowHeader color="#008ed6" background="#fff" />
             </Col>
             <Col lg="4">
               <CardForm />
