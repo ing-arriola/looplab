@@ -4,7 +4,7 @@ import ExploreBody from "../components/ExploreBody";
 import image from "../Assets/looplab/explore-section1.jpg";
 function Explore() {
   return (
-    <>
+    <div id="explore">
       <ExploreHeader
         background="bg-dark"
         title="Explore"
@@ -17,7 +17,7 @@ function Explore() {
         CheckBg="bg-dark"
         checkColor="text-light"
       />
-    </>
+    </div>
   );
 }
 

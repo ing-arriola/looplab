@@ -8,6 +8,10 @@ body {
   opacity: 0.8;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 #home-section {
   background: url("./Assets/looplab/home.jpg") no-repeat;
   background-size: cover;

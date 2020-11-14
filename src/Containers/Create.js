@@ -4,7 +4,7 @@ import ExploreBody from "../components/ExploreBody";
 import image from "../Assets/looplab/create-section1.jpg";
 const Create = () => {
   return (
-    <>
+    <div id="create">
       <ExploreHeader
         background="bg-primary"
         title="Create"
@@ -18,7 +18,7 @@ const Create = () => {
         CheckBg="bg-light"
         checkColor="text-primary"
       />
-    </>
+    </div>
   );
 };
 

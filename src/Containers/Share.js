@@ -4,7 +4,7 @@ import ExploreBody from "../components/ExploreBody";
 import image from "../Assets/looplab/share-section1.jpg";
 const Share = () => {
   return (
-    <>
+    <div id="share">
       <ExploreHeader
         background="bg-primary"
         title="Share"
@@ -17,7 +17,7 @@ const Share = () => {
         CheckBg="bg-dark"
         checkColor="text-light"
       />
-    </>
+    </div>
   );
 };
 
