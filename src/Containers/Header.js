@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Col } from "react-bootstrap";
-import RowHeader from "./RowHeader";
-import CardForm from "./CardForm";
+import RowHeader from "../components/RowHeader";
+import CardForm from "../components/CardForm";
 const Header = () => {
   return (
     <div id="home-section">

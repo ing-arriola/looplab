@@ -7,7 +7,14 @@ const NavigationBar = () => {
     <div>
       <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand href="#home">LOOPLAB</Navbar.Brand>
+          <Link
+            className="navbar-brand cursor "
+            to="home-section"
+            smooth={true}
+            duration={1000}
+          >
+            LOOPLAB
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
