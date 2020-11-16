@@ -13,7 +13,7 @@ const NavigationBar = () => {
             smooth={true}
             duration={1000}
           >
-            LOOPLAB
+            Jarriola
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
